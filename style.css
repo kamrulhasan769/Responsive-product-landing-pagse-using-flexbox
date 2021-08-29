@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 5px;
+
+}
+body{
+    background-color: khaki;
+}
+#header{
+    display: flex;
+    justify-content:space-between;
+}
+#header-img{
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.nav-link:hover{
+        background-color: teal;
+        color: whitesmoke;
+}
+
+#form{
+    text-align: center;
+}
+.mail{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn{
+    height: 30px;
+    width: 180px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+.btn:hover{
+    background-color: violet;
+}
+h3{
+    font-family: fantasy;
+    font-size: 100px;
+    color: teal;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #3C8224;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+    color: #1E2D44;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+#price{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.price-card1{
+    border: 2px solid lightsalmon;
+    width: 250px;
+    margin-top: 10px;
+    padding: 10px;
+    height:auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+    color: lightyellow;
+}
+hr{
+    padding: 5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.slt{
+    width: 100px;
+    height: 50px;
+    font-size: 10px;
+    background-color: lime;
+    border-radius: 10px;
+    font-size: 20px;
+    color: tomato;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    color: aqua;
+    text-align: center;
+}
+@media screen and (max-width: 760px){
+    #price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+        #header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }  
+        .nav-link{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 5px;
+            font-weight: bolder;
+            display: block;
+            width: 200px;
+        }
+        .nav-link:hover{
+                background-color: teal;
+                color: whitesmoke;
+        } 
+    
+}
